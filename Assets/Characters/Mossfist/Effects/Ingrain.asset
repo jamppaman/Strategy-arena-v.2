@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f98fb76e3ad09448970e12735799ad, type: 3}
+  m_Name: Ingrain
+  m_EditorClassIdentifier: 
+  effectName: INGRAIN
+  effectIcon: {fileID: 21300000, guid: ed22e402a3b068d46a67f99a78ffbe8a, type: 3}
+  effectDuration: 1
+  stacks: 1
+  canBeSilenced: 1
+  silenceTurns: 0
+  immune: 0
+  heavyState: 0
+  damageModifyPlus: 0
+  dmPlusAllies: 0
+  dmPlusEnemies: 0
+  damageModifyPercent: 0
+  dmPercentAllies: 0
+  dmPercentEnemies: 0
+  armorModifyPlus: 0
+  amPlusAllies: 0
+  amPlusEnemies: 0
+  armorModifyPercent: 0
+  amPerAllies: 0
+  amPerEnemies: 0
+  healModify: 0
+  hmAllies: 0
+  hmEnemies: 0
+  apModify: 0
+  apAllies: 0
+  apEnemies: 0
+  mpModify: -1
+  mpAllies: 0
+  mpEnemies: 1
+  remainingTurns: 0
+  caster: {fileID: 0}
+  target: {fileID: 0}

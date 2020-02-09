@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08f98fb76e3ad09448970e12735799ad, type: 3}
+  m_Name: Effect1
+  m_EditorClassIdentifier: 
+  effectDuration: 0
+  silenceTurns: 0
+  immuneTurns: 0
+  heavyStateTurns: 0
+  damageModifyPlus: 0
+  dmPlusAllies: 0
+  dmPlusEnemies: 0
+  damageModifyPercent: 0
+  dmPercentAllies: 0
+  dmPercentEnemies: 0
+  armorModify: 0
+  amAllies: 0
+  amEnemies: 0
+  healModify: 0
+  hmAllies: 0
+  hmEnemies: 0
+  apModify: 0
+  apAllies: 0
+  apEnemies: 0
+  mpModify: 0
+  mpAllies: 0
+  mpEnemies: 0

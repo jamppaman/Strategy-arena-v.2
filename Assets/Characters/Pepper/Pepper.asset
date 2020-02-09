@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7801e28493a206a4c829f8153eaec05e, type: 3}
+  m_Name: Pepper
+  m_EditorClassIdentifier: 
+  characterName: Pepper
+  portrait: {fileID: 21300000, guid: d4bf2449307085147a530f6be2276852, type: 3}
+  maxHP: 3000
+  maxAp: 12
+  maxMp: 6
+  spell_1: {fileID: 11400000, guid: 27cc0348975d4f342a113137faa2c076, type: 2}
+  spell_2: {fileID: 11400000, guid: 2b8cd92e2dbcaea448e10594c98544e6, type: 2}
+  spell_3: {fileID: 11400000, guid: 0c298d57b6b49124a963ccbcbf983e24, type: 2}
+  spell_4: {fileID: 11400000, guid: cde1610eb9d8a0946a46af69e2921284, type: 2}
+  spell_5: {fileID: 11400000, guid: e27bce5a88b2075429692499aa95e178, type: 2}
+  spell_6: {fileID: 11400000, guid: 24a57df1808aae74ab725f23cb719c33, type: 2}
+  walkSoundLoop: {fileID: 8300000, guid: 4fde02a4bb47e804d9c5d5290466ab78, type: 3}
+  attackSound: {fileID: 8300000, guid: 9b7f04f1e86cf654d9e6fe17a24f172f, type: 3}
+  takeDamageSound: {fileID: 8300000, guid: 9f6246bfc46f76042966ddac87d86056, type: 3}
+  damagePlus: 0
+  armorPlus: 0
+  moving: 0
+  dead: 0
+  team: 0
+  currentMaxHP: 3000
+  currentHP: 3000
+  currentAp: 12
+  currentMp: 6
+  damageChange: 0
+  armorChange: 0
+  healsReceived: 0
+  heavy: 0

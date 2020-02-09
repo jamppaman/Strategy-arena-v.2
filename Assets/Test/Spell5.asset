@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: Spell5
+  m_EditorClassIdentifier: 
+  mySpellName: 
+  spellIcon: {fileID: 21300000, guid: b617992c942a8894d83ee6e3101f24dd, type: 3}
+  mySpellAreaType: 0
+  mySpellRangeType: 0
+  spellInitialCooldown: 0
+  spellDamageMin: 0
+  spellDamageMax: 0
+  spellRangeMin: 0
+  spellRangeMax: 0
+  spellCooldown: 0
+  spellCastPerturn: 0
+  castPerTarget: 0
+  spellApCost: 0
+  spellPushback: 0
+  spellPull: 0
+  areaRange: 0
+  spellCooldownLeft: 0
+  trueDamage: 0
+  healsAlly: 0
+  hurtsAlly: 0
+  spellOpen: 0
+  needLineOfSight: 0
+  spellLaunched: 0
+  inCooldown: 0

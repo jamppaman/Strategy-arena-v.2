@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: 2GrandShot
+  m_EditorClassIdentifier: 
+  mySpellName: GRAND SHOT
+  spellIcon: {fileID: 21300000, guid: 864167978a1bef941861b6a34f077b3d, type: 3}
+  spellSound: {fileID: 8300000, guid: b7bc3b6de4ab309479062d06be81982c, type: 3}
+  mySpellRangeType: 1
+  spellRangeMin: 5
+  spellRangeMax: 8
+  mySpellAreaType: 0
+  aoeRange: 0
+  spellApCost: 5
+  damageStealsHp: 0
+  spellDamageMin: 900
+  spellDamageMax: 960
+  spellHealMin: 0
+  spellHealMax: 0
+  healsAlly: 0
+  hurtsAlly: 1
+  needLineOfSight: 1
+  needTarget: 0
+  needFreeSquare: 0
+  effect: {fileID: 0}
+  effectOnCaster: 0
+  effectOnTarget: 1
+  spellPushback: 0
+  mySpellPushType: 0
+  spellPull: 0
+  mySpellPullType: 0
+  teleportToTarget: 0
+  chagePlaceWithTarget: 0
+  moveCloserToTarget: 0
+  moveAwayFromTarget: 0
+  spellInitialCooldown: 0
+  spellCooldown: 3
+  spellCastPerturn: 0
+  castPerTarget: 0
+  description: Hard to hit but VERY powerfull shot
+  spellCooldownLeft: 0
+  trueDamage: 0
+  spellLaunched: 0
+  inCooldown: 0

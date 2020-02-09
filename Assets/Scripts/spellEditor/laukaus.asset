@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfbd21cd87c4c354d972376d2e8c88ca, type: 3}
+  m_Name: laukaus
+  m_EditorClassIdentifier: 
+  spellName: laukaus
+  rangeMin: 0
+  rangeMax: 0
+  areaOfEffect: 0
+  spellApCost: 5
+  areaType: 2
+  rangeType: 3
+  needLineOfSight: 1
+  needTarget: 0
+  needFreeSquare: 0
+  spellInitialCooldown: 0
+  spellCooldown: 0
+  spellCastPerturn: 0
+  castPerTarget: 0
+  spellInitialCooldowncounter: 0
+  spellCastPerturncounter: 0
+  castPerTargetcounter: 0
+  spellCooldownLeft: 0
+  trueDamage: 0
+  spellIcon: {fileID: 0}
+  spellSound: {fileID: 0}
+  description: sdfgfjfggffgfhghjhgfd
+  abilities: {fileID: 0}
+  gridController: {fileID: 0}
+  spellCast: {fileID: 0}
+  cv: {fileID: 0}
+  playerBehaviour: {fileID: 0}
+  spellArvot:
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 0
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 0
+    mySpellPushType: 0
+    spellPull: 0
+    mySpellPullType: 0
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 3
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 0
+    mySpellPushType: 0
+    spellPull: 0
+    mySpellPullType: 0
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 0
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 0
+    mySpellPushType: 0
+    spellPull: 0
+    mySpellPullType: 0
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 6
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 0
+    mySpellPushType: 0
+    spellPull: 0
+    mySpellPullType: 0
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 1
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 0
+    mySpellPushType: 0
+    spellPull: 0
+    mySpellPullType: 0
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0

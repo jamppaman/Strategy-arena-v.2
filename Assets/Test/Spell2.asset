@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: Spell2
+  m_EditorClassIdentifier: 
+  mySpellName: CosmicShield
+  spellIcon: {fileID: 21300000, guid: 2055e5cb6da65834aa3d36a1f49f850b, type: 3}
+  mySpellAreaType: 0
+  mySpellRangeType: 0
+  spellInitialCooldown: 0
+  spellDamageMin: 100
+  spellDamageMax: 120
+  spellRangeMin: 1
+  spellRangeMax: 7
+  spellCooldown: 0
+  spellCastPerturn: 5
+  castPerTarget: 5
+  spellApCost: 5
+  spellPushback: 0
+  spellPull: 0
+  aoeRange: 3
+  spellCooldownLeft: 0
+  trueDamage: 0
+  healsAlly: 0
+  hurtsAlly: 0
+  needLineOfSight: 1
+  spellLaunched: 0
+  inCooldown: 0

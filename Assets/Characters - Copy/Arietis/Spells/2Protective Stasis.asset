@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: 2Protective Stasis
+  m_EditorClassIdentifier: 
+  mySpellName: PROTECTIVE STASIS
+  spellIcon: {fileID: 21300000, guid: 625cd75d3a25e6d459c106dfc52e25ae, type: 3}
+  spellSound: {fileID: 8300000, guid: be894b0c96dcc2245ada12d46a2f832e, type: 3}
+  mySpellRangeType: 2
+  spellRangeMin: 1
+  spellRangeMax: 4
+  mySpellAreaType: 0
+  aoeRange: 0
+  spellApCost: 4
+  damageStealsHp: 0
+  spellDamageMin: 0
+  spellDamageMax: 0
+  spellHealMin: 0
+  spellHealMax: 0
+  healsAlly: 0
+  hurtsAlly: 0
+  needLineOfSight: 1
+  needTarget: 1
+  needFreeSquare: 0
+  effect: {fileID: 11400000, guid: 7bd5ae171bdb60648b93b4c4d17a20a1, type: 2}
+  effectOnCaster: 0
+  effectOnTarget: 1
+  spellPushback: 0
+  mySpellPushType: 0
+  spellPull: 0
+  mySpellPullType: 0
+  teleportToTarget: 0
+  chagePlaceWithTarget: 0
+  moveCloserToTarget: 0
+  moveAwayFromTarget: 0
+  spellInitialCooldown: 0
+  spellCooldown: 3
+  spellCastPerturn: 0
+  castPerTarget: 0
+  spellInitialCooldowncounter: 0
+  spellCastPerturncounter: 0
+  castPerTargetcounter: 0
+  description: 'Creates a powerful shiled
+
+    which absorbs all damage
+
+    dealt to the targeted ally.'
+  spellCooldownLeft: 0
+  trueDamage: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7801e28493a206a4c829f8153eaec05e, type: 3}
+  m_Name: TestChar2
+  m_EditorClassIdentifier: 
+  characterName: TestChar2
+  portrait: {fileID: 21300000, guid: 528dd510e76efa6488e5ff74962d4503, type: 3}
+  maxHP: 3000
+  maxAp: 12
+  maxMp: 6
+  spell_1: {fileID: 11400000, guid: 1f9c48e5b5932244a8f8e11213c03de2, type: 2}
+  spell_2: {fileID: 11400000, guid: fef2037784b39a9468ff12e292949a5c, type: 2}
+  spell_3: {fileID: 11400000, guid: cf2eb4522ab3fb2478e368fef8d694a2, type: 2}
+  spell_4: {fileID: 11400000, guid: 97fddd7d00fadc04ca08454af9e08207, type: 2}
+  spell_5: {fileID: 11400000, guid: 526773bed562edd49bb7180bb9ce0cfc, type: 2}
+  spell_6: {fileID: 11400000, guid: 860c2e564c23dcb40a1f7a2dd02133d1, type: 2}
+  damagePlus: 0
+  armorPlus: 0
+  moving: 0
+  dead: 0
+  team: 0
+  currentHP: 2500
+  currentAp: 12
+  currentMp: 6
+  damageChange: 0
+  armorChange: 0
+  healsReceived: 0

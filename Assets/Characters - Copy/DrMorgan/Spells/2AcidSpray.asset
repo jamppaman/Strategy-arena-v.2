@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: 2AcidSpray
+  m_EditorClassIdentifier: 
+  mySpellName: ACID SPRAY
+  spellIcon: {fileID: 21300000, guid: 451fbf8d19ff54e40af152295a312b8b, type: 3}
+  spellSound: {fileID: 8300000, guid: b536a06608b6fba4ab0bdaba98d77da8, type: 3}
+  mySpellRangeType: 0
+  spellRangeMin: 1
+  spellRangeMax: 3
+  mySpellAreaType: 0
+  aoeRange: 0
+  spellApCost: 3
+  damageStealsHp: 0
+  spellDamageMin: 0
+  spellDamageMax: 0
+  spellHealMin: 0
+  spellHealMax: 0
+  healsAlly: 0
+  hurtsAlly: 0
+  needLineOfSight: 1
+  needTarget: 1
+  needFreeSquare: 0
+  effect: {fileID: 11400000, guid: 73e56c4cd517d6f4f9e7b8e46e7b4dce, type: 2}
+  effectOnCaster: 0
+  effectOnTarget: 1
+  spellPushback: 2
+  mySpellPushType: 0
+  spellPull: 0
+  mySpellPullType: 0
+  teleportToTarget: 0
+  chagePlaceWithTarget: 0
+  moveCloserToTarget: 0
+  moveAwayFromTarget: 0
+  spellInitialCooldown: 0
+  spellCooldown: 0
+  spellCastPerturn: 1
+  castPerTarget: 0
+  description: 'Throws a vile of herb based acid to the target
+
+    making it to retreat and lower its defences'
+  spellCooldownLeft: 0
+  trueDamage: 0
+  spellLaunched: 0
+  inCooldown: 0

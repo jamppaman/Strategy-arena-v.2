@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: 2Void Pulse
+  m_EditorClassIdentifier: 
+  mySpellName: VOID PULSE
+  spellIcon: {fileID: 21300000, guid: b617992c942a8894d83ee6e3101f24dd, type: 3}
+  spellSound: {fileID: 8300000, guid: 77b4e2ef58d80dc4d83445abc990cdad, type: 3}
+  mySpellRangeType: 2
+  spellRangeMin: 1
+  spellRangeMax: 8
+  mySpellAreaType: 0
+  aoeRange: 1
+  spellApCost: 3
+  damageStealsHp: 0
+  spellDamageMin: 180
+  spellDamageMax: 200
+  spellHealMin: 0
+  spellHealMax: 0
+  healsAlly: 0
+  hurtsAlly: 0
+  needLineOfSight: 0
+  needTarget: 0
+  needFreeSquare: 0
+  effect: {fileID: 0}
+  effectOnCaster: 0
+  effectOnTarget: 1
+  spellPushback: 1
+  mySpellPushType: 0
+  spellPull: 0
+  mySpellPullType: 0
+  teleportToTarget: 0
+  chagePlaceWithTarget: 0
+  moveCloserToTarget: 0
+  moveAwayFromTarget: 0
+  spellInitialCooldown: 0
+  spellCooldown: 0
+  spellCastPerturn: 1
+  castPerTarget: 0
+  description: "Sends a small pulse of void energy \nto knock back everyone around
+    it."
+  spellCooldownLeft: 0
+  trueDamage: 0
+  spellLaunched: 0
+  inCooldown: 0

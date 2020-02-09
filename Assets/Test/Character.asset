@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7801e28493a206a4c829f8153eaec05e, type: 3}
+  m_Name: Character
+  m_EditorClassIdentifier: 
+  characterName: 
+  portrait: {fileID: 0}
+  maxHP: 0
+  maxAp: 0
+  maxMp: 0
+  currentHP: 0
+  currentAp: 0
+  currentMp: 0
+  damageChange: 0
+  armorChange: 0
+  healsReceived: 0
+  damagePlus: 0
+  armorPlus: 0
+  moving: 0
+  dead: 0
+  team: 0
+  spell_1: {fileID: 0}
+  spell_2: {fileID: 0}
+  spell_3: {fileID: 0}
+  spell_4: {fileID: 0}
+  spell_5: {fileID: 0}
+  spell_6: {fileID: 0}

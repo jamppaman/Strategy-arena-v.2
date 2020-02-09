@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Name: 2Vacuum Ray
+  m_EditorClassIdentifier: 
+  mySpellName: VACUUM RAY
+  spellIcon: {fileID: 21300000, guid: b1f0217a84e449941b07df754e4b5010, type: 3}
+  spellSound: {fileID: 8300000, guid: 713855f6637a2b744affb43f0a679519, type: 3}
+  mySpellRangeType: 3
+  spellRangeMin: 1
+  spellRangeMax: 7
+  mySpellAreaType: 0
+  aoeRange: 0
+  spellApCost: 4
+  damageStealsHp: 0
+  spellDamageMin: 260
+  spellDamageMax: 280
+  spellHealMin: 0
+  spellHealMax: 0
+  healsAlly: 0
+  hurtsAlly: 0
+  needLineOfSight: 1
+  needTarget: 1
+  needFreeSquare: 0
+  effect: {fileID: 0}
+  effectOnCaster: 0
+  effectOnTarget: 1
+  spellPushback: 0
+  mySpellPushType: 0
+  spellPull: 2
+  mySpellPullType: 0
+  teleportToTarget: 0
+  chagePlaceWithTarget: 0
+  moveCloserToTarget: 0
+  moveAwayFromTarget: 0
+  spellInitialCooldown: 0
+  spellCooldown: 0
+  spellCastPerturn: 1
+  castPerTarget: 0
+  description: 'Pulls the target with a powerful
+
+    suction while damaging enemies.'
+  spellCooldownLeft: 0
+  trueDamage: 0
+  spellLaunched: 0
+  inCooldown: 0
