@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfbd21cd87c4c354d972376d2e8c88ca, type: 3}
+  m_Name: SpellCreator
+  m_EditorClassIdentifier: 
+  spellName: Testing
+  rangeMin: 2
+  rangeMax: 12
+  areaOfEffect: 2
+  spellApCost: 2
+  areaType: 0
+  rangeType: 0
+  needLineOfSight: 0
+  needTarget: 0
+  needFreeSquare: 0
+  spellInitialCooldown: 0
+  spellCooldown: 0
+  spellCastPerturn: 0
+  castPerTarget: 0
+  spellInitialCooldowncounter: 0
+  spellCastPerturncounter: 0
+  castPerTargetcounter: 0
+  spellCooldownLeft: 0
+  trueDamage: 0
+  spellIcon: {fileID: 21300000, guid: 451fbf8d19ff54e40af152295a312b8b, type: 3}
+  spellSound: {fileID: 8300000, guid: e7cba8b3d82e5e3439241f91af03e8e1, type: 3}
+  description: 'Testing some spells
+
+    How''s this for a tooltip?'
+  abilities: {fileID: 0}
+  gridController: {fileID: 0}
+  spellCast: {fileID: 0}
+  cv: {fileID: 0}
+  playerBehaviour: {fileID: 0}
+  spellArvot:
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 4
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 500
+    spellHealMax: 500
+    healsAll: 1
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 2
+    mySpellPushType: 5
+    spellPull: 2
+    mySpellPullType: 3
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0
+  - abilities: {fileID: 0}
+    sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCast: {fileID: 0}
+    attributeType: 0
+    spellDamageMin: 1000
+    spellDamageMax: 1100
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 1
+    spellPushback: 0
+    mySpellPushType: 0
+    spellPull: 0
+    mySpellPullType: 0
+    teleportToTarget: 0
+    chagePlaceWithTarget: 0
+    moveCloserToTarget: 0
+    moveAwayFromTarget: 0

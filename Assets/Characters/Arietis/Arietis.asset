@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -16,7 +17,7 @@ MonoBehaviour:
   maxHP: 3000
   maxAp: 12
   maxMp: 6
-  spell_1: {fileID: 11400000, guid: 758a3352e540d8e43ad330993fc9f8ec, type: 2}
+  spell_1: {fileID: 11400000, guid: cbb1b5298190da64685fb5dceddbdd6f, type: 2}
   spell_2: {fileID: 11400000, guid: 36ed731e70d9bf143b500522bc076be2, type: 2}
   spell_3: {fileID: 11400000, guid: e225f57ecfd7d3949a01f9a2ca1cede9, type: 2}
   spell_4: {fileID: 11400000, guid: 1e3aab796d782134d97907ad15c1794d, type: 2}
@@ -32,8 +33,8 @@ MonoBehaviour:
   team: 0
   currentMaxHP: 3000
   currentHP: 3000
-  currentAp: 12
-  currentMp: 6
+  currentAp: 6
+  currentMp: 0
   damageChange: 0
   armorChange: 0
   healsReceived: 0
