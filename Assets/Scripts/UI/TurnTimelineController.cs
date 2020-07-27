@@ -12,7 +12,7 @@ namespace UIsystem
 
         public List<GameObject> blocks;
         private TurnManager tManager;
-        private int currentArrow = 0;
+       // private int currentArrow = 0;
 
         void Start()
         {

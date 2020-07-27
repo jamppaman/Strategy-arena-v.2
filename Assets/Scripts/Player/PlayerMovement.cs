@@ -7,13 +7,12 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Handles the movement executing and validity checking. Movement happens only in cardinal directions.
+/// </summary>
+
 namespace CharacterSystem
 {
-    /// <summary>
-    /// Handles the movement executing and validity checking. Movement happens only in cardinal directions.
-    /// </summary>
-
-
     public class PlayerMovement : MonoBehaviour
     {
 
@@ -501,5 +500,4 @@ namespace CharacterSystem
 #endif
 
     }
-
 }

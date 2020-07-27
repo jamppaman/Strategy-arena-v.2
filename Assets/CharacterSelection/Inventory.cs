@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour, IHasChanged
 {
     [SerializeField] Transform slots;
-    [SerializeField] Text inventoryText;
+ //   [SerializeField] Text inventoryText;
 
     // Use this for initialization
     void Start()
@@ -31,7 +31,7 @@ public class Inventory : MonoBehaviour, IHasChanged
                 }
             }
         }
-        inventoryText.text = builder.ToString();
+        //inventoryText.text = builder.ToString();
     }
     #endregion
 }
