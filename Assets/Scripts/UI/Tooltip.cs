@@ -97,23 +97,23 @@ namespace UIsystem
                 ui._text = "";
                 ui._text += spell.spellName + "\n";
                 ui._text += "\nAP: " + spell.spellApCost;
-                if (spell.rangeType != Abilities.SpellRangeType.LinDiag)
-                {
-                    ui._text += "\nRange: " + spell.rangeType + " : " + spell.rangeMin;
-                }
-                if (spell.rangeType == Abilities.SpellRangeType.LinDiag)
-                {
-                    ui._text += "\nRange: " + "Linear & Diagonal" + " : " + spell.rangeMin;
-                }
-                if (spell.rangeMin != spell.rangeMax)
-                {
-                    ui._text += " - " + spell.rangeMax;
-                }
-                if (spell.areaOfEffect != 0)
-                {
-                    ui._text += "\nArea of effect: " + spell.areaType + " : " + spell.areaOfEffect;
-                    ui._text += "\n";
-                }
+                //////////////////if (spell.rangeType != SpellTargeting.SpellRangeType.LinDiag)
+                //////////////////{
+                //////////////////    ui._text += "\nRange: " + spell.rangeType + " : " + spell.rangeMin;
+                //////////////////}
+                //////////////////if (spell.rangeType == SpellTargeting.SpellRangeType.LinDiag)
+                //////////////////{
+                //////////////////    ui._text += "\nRange: " + "Linear & Diagonal" + " : " + spell.rangeMin;
+                //////////////////}
+                //////////////////if (spell.rangeMin != spell.rangeMax)
+                //////////////////{
+                //////////////////    ui._text += " - " + spell.rangeMax;
+                //////////////////}
+                //////////////////if (spell.areaOfEffect != 0)
+                //////////////////{
+                //////////////////    ui._text += "\nArea of effect: " + spell.areaType + " : " + spell.areaOfEffect;
+                //////////////////    ui._text += "\n";
+                //////////////////}
                 if (spell.areaOfEffect == 0)
                 {
                     ui._text += "\nSingle target";
@@ -404,7 +404,7 @@ namespace UIsystem
             }
             else
             {
-                Debug.Log("error");
+               // Debug.Log("error");
             }
             ui.ShowTooltip();
         }

@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -16,12 +17,12 @@ MonoBehaviour:
   maxHP: 3000
   maxAp: 12
   maxMp: 6
-  spell_1: {fileID: 11400000, guid: a6dc960fa0204fb49a7ecc6b278a71d1, type: 2}
-  spell_2: {fileID: 11400000, guid: cc4b5ac32363cfd45a50e644d66f0f51, type: 2}
-  spell_3: {fileID: 11400000, guid: 7e30e5898b1919f45ac83d932ab51692, type: 2}
-  spell_4: {fileID: 11400000, guid: fbbe753fdb03e8c499a33a2b5addc55a, type: 2}
-  spell_5: {fileID: 11400000, guid: 39fc3501f01ea854fb70de57a4bd54f2, type: 2}
-  spell_6: {fileID: 11400000, guid: 0eca20c0210e2114b8c3606d6e4470b7, type: 2}
+  spell_1: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
+  spell_2: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
+  spell_3: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
+  spell_4: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
+  spell_5: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
+  spell_6: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
   walkSoundLoop: {fileID: 8300000, guid: f5ca6590c687bf144beca45df3892a29, type: 3}
   attackSound: {fileID: 8300000, guid: 67a2656a322b5594db6a381a0f866105, type: 3}
   takeDamageSound: {fileID: 8300000, guid: a4512644735b69643a6463915c9f6f75, type: 3}
@@ -33,7 +34,7 @@ MonoBehaviour:
   currentMaxHP: 3000
   currentHP: 3000
   currentAp: 12
-  currentMp: 6
+  currentMp: 0
   damageChange: 0
   armorChange: 0
   healsReceived: 0
