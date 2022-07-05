@@ -4,50 +4,84 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Script: {fileID: 11500000, guid: bfbd21cd87c4c354d972376d2e8c88ca, type: 3}
   m_Name: RootBash
   m_EditorClassIdentifier: 
-  mySpellName: ROOT BASH
-  spellIcon: {fileID: 21300000, guid: f94f4e94e113e184e983d7c8e6f1a8b4, type: 3}
-  spellSound: {fileID: 8300000, guid: 7333e7b02a0cb554fa40618f2cb1a8ea, type: 3}
-  mySpellRangeType: 0
-  spellRangeMin: 1
-  spellRangeMax: 1
-  mySpellAreaType: 0
-  aoeRange: 0
-  spellApCost: 4
-  damageStealsHp: 0
-  spellDamageMin: 280
-  spellDamageMax: 300
-  spellHealMin: 0
-  spellHealMax: 0
-  healsAlly: 0
-  hurtsAlly: 0
+  spellName: Root Bash
+  rangeMin: 2
+  rangeMax: 1
+  areaOfEffect: 0
+  spellApCost: 3
+  areaType: 0
+  rangeType: 0
   needLineOfSight: 1
   needTarget: 0
   needFreeSquare: 0
-  effect: {fileID: 0}
-  effectOnCaster: 0
-  effectOnTarget: 1
-  spellPushback: 4
-  mySpellPushType: 0
-  spellPull: 0
-  mySpellPullType: 0
-  teleportToTarget: 0
-  chagePlaceWithTarget: 0
-  moveCloserToTarget: 0
-  moveAwayFromTarget: 0
   spellInitialCooldown: 0
-  spellCooldown: 0
-  spellCastPerturn: 1
-  castPerTarget: 0
+  spellCooldown: 1
+  spellCastPerturn: 3
+  castPerTarget: 2
   spellInitialCooldowncounter: 0
   spellCastPerturncounter: 0
   castPerTargetcounter: 0
-  description: "Powerfull slam with root \npushes the target back a lot"
   spellCooldownLeft: 0
   trueDamage: 0
+  spellArvot:
+  - sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCalculators: {fileID: 0}
+    spellFormulaes: {fileID: 0}
+    isSingleUse: 0
+    attributeType: 0
+    spellDamageMin: 250
+    spellDamageMax: 280
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 0
+    spellPullPush: 0
+    mySpellPullPushType: 0
+    isItPull: 1
+    switchWithTarget: 0
+    movemenPoints: 0
+    moveTowards: 0
+    silenceAmount: 0
+  - sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCalculators: {fileID: 0}
+    spellFormulaes: {fileID: 0}
+    isSingleUse: 0
+    attributeType: 4
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 0
+    spellPullPush: 2
+    mySpellPullPushType: 0
+    isItPull: 0
+    switchWithTarget: 0
+    movemenPoints: 0
+    moveTowards: 0
+    silenceAmount: 0
+  spellIcon: {fileID: 21300000, guid: f94f4e94e113e184e983d7c8e6f1a8b4, type: 3}
+  spellSound: {fileID: 0}
+  description: Pushes the target while dealing damage

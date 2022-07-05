@@ -72,7 +72,7 @@ namespace UIsystem
             spell6.GetComponent<Image>().sprite = characterVal.spell_6.spellIcon;
         }
 
-        public void AddEffectIcon(SpellSystem.EffectValues effect)
+        public void AddEffectIcon(SpellSystem.EffectCreator effect)
         {
             GameObject GO = Instantiate(effectBlock.gameObject);
             GO.transform.SetParent(panel.transform);

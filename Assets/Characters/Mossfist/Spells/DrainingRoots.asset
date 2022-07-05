@@ -4,52 +4,59 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Script: {fileID: 11500000, guid: bfbd21cd87c4c354d972376d2e8c88ca, type: 3}
   m_Name: DrainingRoots
   m_EditorClassIdentifier: 
-  mySpellName: DRAINING ROOTS
-  spellIcon: {fileID: 21300000, guid: 561e0a71db8a72b4492cfa190d6b1c15, type: 3}
-  spellSound: {fileID: 8300000, guid: 344699b525422c34ab6001b45390364f, type: 3}
-  mySpellRangeType: 2
-  spellRangeMin: 0
-  spellRangeMax: 0
-  mySpellAreaType: 0
-  aoeRange: 1
+  spellName: Draining Roots
+  rangeMin: 0
+  rangeMax: 0
+  areaOfEffect: 4
   spellApCost: 4
-  damageStealsHp: 1
-  spellDamageMin: 240
-  spellDamageMax: 260
-  spellHealMin: 0
-  spellHealMax: 0
-  healsAlly: 0
-  hurtsAlly: 0
+  areaType: 0
+  rangeType: 0
   needLineOfSight: 1
   needTarget: 0
   needFreeSquare: 0
-  effect: {fileID: 0}
-  effectOnCaster: 0
-  effectOnTarget: 1
-  spellPushback: 0
-  mySpellPushType: 0
-  spellPull: 0
-  mySpellPullType: 0
-  teleportToTarget: 0
-  chagePlaceWithTarget: 0
-  moveCloserToTarget: 0
-  moveAwayFromTarget: 0
   spellInitialCooldown: 0
   spellCooldown: 0
-  spellCastPerturn: 2
+  spellCastPerturn: 1
   castPerTarget: 0
   spellInitialCooldowncounter: 0
   spellCastPerturncounter: 0
   castPerTargetcounter: 0
-  description: 'Spreads roots to nearby targets
-
-    draining life out of them'
   spellCooldownLeft: 0
   trueDamage: 0
+  spellArvot:
+  - sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCalculators: {fileID: 0}
+    spellFormulaes: {fileID: 0}
+    isSingleUse: 0
+    attributeType: 1
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 300
+    stealDamageMax: 320
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 0
+    spellPullPush: 0
+    mySpellPullPushType: 0
+    isItPull: 1
+    switchWithTarget: 0
+    movemenPoints: 0
+    moveTowards: 0
+    silenceAmount: 0
+  spellIcon: {fileID: 21300000, guid: 561e0a71db8a72b4492cfa190d6b1c15, type: 3}
+  spellSound: {fileID: 0}
+  description: Pulls the targets around him and steals health

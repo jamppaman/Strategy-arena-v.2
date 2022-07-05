@@ -4,50 +4,59 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Script: {fileID: 11500000, guid: bfbd21cd87c4c354d972376d2e8c88ca, type: 3}
   m_Name: IronBark
   m_EditorClassIdentifier: 
-  mySpellName: IRONBARK
-  spellIcon: {fileID: 21300000, guid: 5e45fb601a65f9e4d91ffb32209dce2f, type: 3}
-  spellSound: {fileID: 8300000, guid: dfa20cd0d380e944fbe52aea35544fe0, type: 3}
-  mySpellRangeType: 2
-  spellRangeMin: 0
-  spellRangeMax: 0
-  mySpellAreaType: 0
-  aoeRange: 0
+  spellName: Iron Bark
+  rangeMin: 0
+  rangeMax: 0
+  areaOfEffect: 0
   spellApCost: 3
-  damageStealsHp: 0
-  spellDamageMin: 0
-  spellDamageMax: 0
-  spellHealMin: 0
-  spellHealMax: 0
-  healsAlly: 0
-  hurtsAlly: 0
-  needLineOfSight: 1
+  areaType: 0
+  rangeType: 0
+  needLineOfSight: 0
   needTarget: 0
   needFreeSquare: 0
-  effect: {fileID: 11400000, guid: 078d5243457a51940b3c90e1c71cacaa, type: 2}
-  effectOnCaster: 1
-  effectOnTarget: 0
-  spellPushback: 0
-  mySpellPushType: 0
-  spellPull: 0
-  mySpellPullType: 0
-  teleportToTarget: 0
-  chagePlaceWithTarget: 0
-  moveCloserToTarget: 0
-  moveAwayFromTarget: 0
   spellInitialCooldown: 0
-  spellCooldown: 2
-  spellCastPerturn: 0
+  spellCooldown: 1
+  spellCastPerturn: 1
   castPerTarget: 0
   spellInitialCooldowncounter: 0
   spellCastPerturncounter: 0
   castPerTargetcounter: 0
-  description: "Hardens the bark \ngaining survavibility"
   spellCooldownLeft: 0
   trueDamage: 0
+  spellArvot:
+  - sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCalculators: {fileID: 0}
+    spellFormulaes: {fileID: 0}
+    isSingleUse: 1
+    attributeType: 3
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 1
+    effectOnTarget: 0
+    spellPullPush: 0
+    mySpellPullPushType: 0
+    isItPull: 1
+    switchWithTarget: 0
+    movemenPoints: 0
+    moveTowards: 0
+    silenceAmount: 0
+  spellIcon: {fileID: 21300000, guid: 5e45fb601a65f9e4d91ffb32209dce2f, type: 3}
+  spellSound: {fileID: 0}
+  description: Gain armor

@@ -17,12 +17,12 @@ MonoBehaviour:
   maxHP: 3000
   maxAp: 12
   maxMp: 6
-  spell_1: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
-  spell_2: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
-  spell_3: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
-  spell_4: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
-  spell_5: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
-  spell_6: {fileID: 11400000, guid: f0644b259ca254245b1bd17ee762269c, type: 2}
+  spell_1: {fileID: 11400000, guid: 391c3a3d00b1824429f4e667c77fee4c, type: 2}
+  spell_2: {fileID: 11400000, guid: 391c3a3d00b1824429f4e667c77fee4c, type: 2}
+  spell_3: {fileID: 11400000, guid: 391c3a3d00b1824429f4e667c77fee4c, type: 2}
+  spell_4: {fileID: 11400000, guid: 391c3a3d00b1824429f4e667c77fee4c, type: 2}
+  spell_5: {fileID: 11400000, guid: 391c3a3d00b1824429f4e667c77fee4c, type: 2}
+  spell_6: {fileID: 11400000, guid: 391c3a3d00b1824429f4e667c77fee4c, type: 2}
   walkSoundLoop: {fileID: 8300000, guid: f5ca6590c687bf144beca45df3892a29, type: 3}
   attackSound: {fileID: 8300000, guid: 67a2656a322b5594db6a381a0f866105, type: 3}
   takeDamageSound: {fileID: 8300000, guid: a4512644735b69643a6463915c9f6f75, type: 3}
@@ -34,8 +34,9 @@ MonoBehaviour:
   currentMaxHP: 3000
   currentHP: 3000
   currentAp: 12
-  currentMp: 0
+  currentMp: 6
   damageChange: 0
   armorChange: 0
   healsReceived: 0
   heavy: 0
+  immunity: 0

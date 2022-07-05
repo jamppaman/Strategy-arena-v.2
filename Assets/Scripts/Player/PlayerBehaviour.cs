@@ -80,17 +80,17 @@ using UnityEngine.UI;
                 spellbuttons.DisableButtonsIfNotAp();
             }
         }
-        ////////////public void AddTabEffect(EffectValues effect, CharacterValues target)
-        ////////////{
-        ////////////    foreach (GameObject tab in charTabList)
-        ////////////    {
-        ////////////        CharacterTab tabby = tab.GetComponent<CharacterTab>();
-        ////////////        if (tabby.characterVal == target)
-        ////////////        {
-        ////////////            tabby.AddEffectIcon(effect);
-        ////////////        }
-        ////////////    }
-        ////////////}
+        public void AddTabEffect(EffectCreator effect, CharacterValues target)
+        {
+            foreach (GameObject tab in charTabList)
+            {
+                CharacterTab tabby = tab.GetComponent<CharacterTab>();
+                if (tabby.characterVal == target)
+                {
+                    tabby.AddEffectIcon(effect);
+                }
+            }
+        }
         public CharacterTab GetTab(CharacterValues character)
         {
             foreach (GameObject tab in charTabList)

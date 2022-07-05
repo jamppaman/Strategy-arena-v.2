@@ -21,15 +21,15 @@ namespace SpellSystem
         public bool needFreeSquare = false;
 
         // cooldown stuff
-        public int spellInitialCooldown;
-        public int spellCooldown;
-        public int spellCastPerturn;
-        public int castPerTarget;
+        public int spellInitialCooldown = 0;
+        public int spellCooldown = 0;
+        public int spellCastPerturn = 0;
+        public int castPerTarget = 0;
 
         // counters
-        public int spellInitialCooldowncounter;
-        public int spellCastPerturncounter;
-        public int castPerTargetcounter;
+        public int spellInitialCooldowncounter = 0;
+        public int spellCastPerturncounter = 0;
+        public int castPerTargetcounter = 0;
 
 
         // dont touch
@@ -55,13 +55,13 @@ namespace SpellSystem
         public class SpellAttribute
         {
             // References
-            public StatusEffects sEffects;
+            ////////////////public StatusEffects sEffects;
             public GridController gridController;
             public SpellCalculators spellCalculators;
             public SpellFormulaes spellFormulaes;
 
             public bool isSingleUse = false;
-            public enum AttributeType { damage, steal, heal, effect, pullpush, walk, teleport };
+            public enum AttributeType { damage, steal, heal, effect, pullpush, walk, teleport, silence};
             public AttributeType attributeType;
 
             // damage stuff
@@ -79,7 +79,7 @@ namespace SpellSystem
             public bool stealHurtsAlly = false;
 
             // effect stuff
-            public EffectValues effect;
+            public EffectCreator effect;
             public bool effectOnCaster = false;
             public bool effectOnTarget = false;
 
@@ -88,6 +88,7 @@ namespace SpellSystem
             public SpellFormulaes.SpellPullPushType mySpellPullPushType;
             // V V V when true spell pulls
             public bool isItPull = true;
+            public int wallSplatDmg;
 
             // teleport
             public bool switchWithTarget = false;
@@ -95,6 +96,9 @@ namespace SpellSystem
             // walking
             public int movemenPoints;
             public bool moveTowards;
+
+            // immunity
+            public int silenceAmount;
 
             // Add new variables here
             //

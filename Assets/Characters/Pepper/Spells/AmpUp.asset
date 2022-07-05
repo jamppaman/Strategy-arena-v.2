@@ -4,49 +4,59 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b8038d5e1a6f4b4bb84ea3b5b6084fc, type: 3}
+  m_Script: {fileID: 11500000, guid: bfbd21cd87c4c354d972376d2e8c88ca, type: 3}
   m_Name: AmpUp
   m_EditorClassIdentifier: 
-  mySpellName: AMP UP
-  spellIcon: {fileID: 21300000, guid: ba4a888bd1e3dbf47b0a71b33d7ceef9, type: 3}
-  spellSound: {fileID: 8300000, guid: 0026cc43d4e9128458d078e5a114104e, type: 3}
-  mySpellRangeType: 2
-  spellRangeMin: 0
-  spellRangeMax: 0
-  mySpellAreaType: 2
-  aoeRange: 2
-  spellApCost: 4
-  damageStealsHp: 0
-  spellDamageMin: 0
-  spellDamageMax: 0
-  spellHealMin: 0
-  spellHealMax: 0
-  healsAlly: 0
-  hurtsAlly: 0
+  spellName: Amp up
+  rangeMin: 0
+  rangeMax: 0
+  areaOfEffect: 2
+  spellApCost: 3
+  areaType: 2
+  rangeType: 2
   needLineOfSight: 1
   needTarget: 0
   needFreeSquare: 0
-  effect: {fileID: 11400000, guid: a4116d9aeec0bd74b9b51aff5667a509, type: 2}
-  effectOnCaster: 1
-  effectOnTarget: 1
-  spellPushback: 0
-  mySpellPushType: 0
-  spellPull: 0
-  mySpellPullType: 0
-  teleportToTarget: 0
-  chagePlaceWithTarget: 0
-  moveCloserToTarget: 0
-  moveAwayFromTarget: 0
   spellInitialCooldown: 0
-  spellCooldown: 3
+  spellCooldown: 0
   spellCastPerturn: 0
   castPerTarget: 0
-  description: "Amps up the power for \nyourself and allies"
+  spellInitialCooldowncounter: 0
+  spellCastPerturncounter: 0
+  castPerTargetcounter: 0
   spellCooldownLeft: 0
   trueDamage: 0
-  spellLaunched: 0
-  inCooldown: 0
+  spellArvot:
+  - sEffects: {fileID: 0}
+    gridController: {fileID: 0}
+    spellCalculators: {fileID: 0}
+    spellFormulaes: {fileID: 0}
+    isSingleUse: 0
+    attributeType: 3
+    spellDamageMin: 0
+    spellDamageMax: 0
+    hurtsAlly: 0
+    spellHealMin: 0
+    spellHealMax: 0
+    healsAll: 0
+    stealDamageMin: 0
+    stealDamageMax: 0
+    stealHurtsAlly: 0
+    effect: {fileID: 0}
+    effectOnCaster: 0
+    effectOnTarget: 0
+    spellPullPush: 0
+    mySpellPullPushType: 0
+    isItPull: 1
+    switchWithTarget: 0
+    movemenPoints: 0
+    moveTowards: 0
+    silenceAmount: 0
+  spellIcon: {fileID: 21300000, guid: ba4a888bd1e3dbf47b0a71b33d7ceef9, type: 3}
+  spellSound: {fileID: 0}
+  description: Gives movement and shield for itself and nearby allies

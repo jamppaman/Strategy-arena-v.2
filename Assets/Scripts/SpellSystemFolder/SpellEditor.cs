@@ -154,9 +154,11 @@ namespace SpellSystem
                             SerializedProperty spellPullPush = attriRefe.FindPropertyRelative("spellPullPush");
                             SerializedProperty mySpellPullPushType = attriRefe.FindPropertyRelative("mySpellPullPushType");
                             SerializedProperty isItPull = attriRefe.FindPropertyRelative("isItPull");
+                            SerializedProperty wallSpat = attriRefe.FindPropertyRelative("wallSplatDmg");
                             EditorGUILayout.PropertyField(mySpellPullPushType);
                             EditorGUILayout.PropertyField(spellPullPush);
                             EditorGUILayout.PropertyField(isItPull);
+                            EditorGUILayout.PropertyField(wallSpat);
                             break;
 
                         case SpellCreator.SpellAttribute.AttributeType.effect:
@@ -166,6 +168,11 @@ namespace SpellSystem
                             EditorGUILayout.PropertyField(effect);
                             EditorGUILayout.PropertyField(effectOnCaster);
                             EditorGUILayout.PropertyField(effectOnTarget);
+                            break;
+
+                        case SpellCreator.SpellAttribute.AttributeType.silence:
+                            SerializedProperty silenceAmount = attriRefe.FindPropertyRelative("silenceAmount");
+                            EditorGUILayout.PropertyField(silenceAmount);
                             break;
                     }
                 }

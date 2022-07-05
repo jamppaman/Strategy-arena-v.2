@@ -69,9 +69,11 @@
     <Compile Include="Assets\Scripts\GridSystemFolder\PositionContainer.cs" />
     <Compile Include="Assets\Scripts\GridSystemFolder\Tile.cs" />
     <Compile Include="Assets\Scripts\KorjausKesken\CharacterValues.cs" />
-    <Compile Include="Assets\Scripts\KorjausKesken\EffectValues.cs" />
+    <Compile Include="Assets\Scripts\KorjausKesken\EffectCreator.cs" />
+    <Compile Include="Assets\Scripts\KorjausKesken\EffectEditor.cs" />
+    <Compile Include="Assets\Scripts\KorjausKesken\EffectMotor.cs" />
     <Compile Include="Assets\Scripts\KorjausKesken\MouseController.cs" />
-    <Compile Include="Assets\Scripts\KorjausKesken\StatusEffects.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ManagementFolder\AudioController.cs" />
     <Compile Include="Assets\Scripts\ManagementFolder\GameStart.cs" />
     <Compile Include="Assets\Scripts\ManagementFolder\TeamManager.cs" />

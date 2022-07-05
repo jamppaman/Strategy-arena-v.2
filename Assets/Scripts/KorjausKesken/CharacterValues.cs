@@ -40,6 +40,7 @@ namespace CharacterSystem
         public float armorChange;
         public float healsReceived;
         public bool heavy = false;
+        public bool immunity = false;
     }
 
 }

@@ -170,6 +170,11 @@ namespace SpellSystem
                     }
 
                     break;
+
+                case SpellCreator.SpellAttribute.AttributeType.silence:
+                    spellFormulaes.Silencing(targetTile, spellAttribute);
+                    break;
+
             }
         }
         

@@ -18,7 +18,7 @@ namespace ManagementSystem
         [SerializeField]
         private int charactersPerTeam = 5;
         public PlayerInfo activePlayer; //Changed playerbehaviour to PlayerInfo
-        public StatusEffects sEffects;
+        //////////public StatusEffects sEffects;
         public TurnTimelineController timeline;
         public SpellCalculators spellcalculators;
         public TurnManager tManager;
@@ -45,8 +45,8 @@ namespace ManagementSystem
             playerPositionInTeam = 0;
             activePlayer = teamA[0];
 
-            if (!sEffects)
-                sEffects = gameObject.GetComponent<StatusEffects>();
+            ////////////////if (!sEffects)
+            ////////////////    sEffects = gameObject.GetComponent<StatusEffects>();
             if (!tManager)
                 tManager = gameObject.GetComponent<TurnManager>();
             if (teamA == null || teamB == null)
@@ -126,8 +126,8 @@ namespace ManagementSystem
             spellcalculators.HandleCooldownDecrease(activePlayer.thisCharacter.spell_4);
             spellcalculators.HandleCooldownDecrease(activePlayer.thisCharacter.spell_5);
             spellcalculators.HandleCooldownDecrease(activePlayer.thisCharacter.spell_6);
-            sEffects.UpdateEffects();
-            sEffects.CalculateEffects(activePlayer.thisCharacter);
+            //////////////////sEffects.UpdateEffects();
+            //////////////////sEffects.CalculateEffects(activePlayer.thisCharacter);
         }
 
         public PlayerInfo ChangeTurnUntilValidPlayer()

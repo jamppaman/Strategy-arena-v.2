@@ -27,6 +27,10 @@ namespace SpellSystem
         // V V V damaging health values
         public void GetHit(CharacterValues target, int damage)
         {
+            if (target.immunity == true)
+            {
+                damage = 0;
+            }
             //Damage dealt
             target.currentHP -= damage;
             //Popup

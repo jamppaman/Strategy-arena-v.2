@@ -14,7 +14,7 @@ namespace UIsystem
 
         public SpellCreator spell;
         public CharacterValues character;
-        public EffectValues effect;
+        public EffectCreator effect;
         UImanager ui;
         Text _text;
 
@@ -48,7 +48,7 @@ namespace UIsystem
         {
             character = x;
         }
-        public void UpdateInfo(EffectValues x)
+        public void UpdateInfo(EffectCreator x)
         {
             effect = x;
         }
@@ -312,91 +312,91 @@ namespace UIsystem
                 ui._text += "\n";
                 ui._text += "\nTurns remaining: " + effect.remainingTurns;
                 ui._text += "\n";
-                if (effect.immune == true)
-                {
-                    ui._text += "\nImmune to damage";
-                }
-                if (effect.heavyState == true)
-                {
-                    ui._text += "\nHeavy state";
-                }
-                if (effect.damageModifyPlus != 0)
-                {
-                    if (effect.damageModifyPlus > 0)
-                    {
-                        ui._text += "\nDamage: +" + effect.damageModifyPlus;
-                    }
-                    else
-                    {
-                        ui._text += "\nDamage: " + effect.damageModifyPlus;
-                    }
-                }
-                if (effect.damageModifyPercent != 0)
-                {
-                    if (effect.damageModifyPercent > 0)
-                    {
-                        ui._text += "\nDamage: +" + effect.damageModifyPercent * 100 + "%";
-                    }
-                    else
-                    {
-                        ui._text += "\nDamage: " + effect.damageModifyPercent * 100 + "%";
-                    }
-                }
-                if (effect.armorModifyPlus != 0)
-                {
-                    if (effect.armorModifyPlus > 0)
-                    {
-                        ui._text += "\nArmor: +" + effect.armorModifyPlus;
-                    }
-                    else
-                    {
-                        ui._text += "\nArmor: " + effect.armorModifyPlus;
-                    }
-                }
-                if (effect.armorModifyPercent != 0)
-                {
-                    if (effect.armorModifyPercent > 0)
-                    {
-                        ui._text += "\nArmor: +" + effect.armorModifyPercent * 100 + "%";
-                    }
-                    else
-                    {
-                        ui._text += "\nArmor: " + effect.armorModifyPercent * 100 + "%";
-                    }
-                }
-                if (effect.healModify != 0)
-                {
-                    if (effect.healModify > 0)
-                    {
-                        ui._text += "\nHeal modifier: +" + effect.healModify * 100 + "%";
-                    }
-                    else
-                    {
-                        ui._text += "\nHeal modifier: " + effect.healModify * 100 + "%";
-                    }
-                }
-                if (effect.apModify != 0)
-                {
-                    if (effect.apModify > 0)
-                    {
-                        ui._text += "\nAP: +" + effect.apModify;
-                    }
-                    else
-                    {
-                        ui._text += "\nAP: " + effect.apModify;
-                    }
-                }
-                if (effect.mpModify != 0)
-                {
-                    if (effect.mpModify > 0)
-                    {
-                        ui._text += "\nMP: +" + effect.mpModify;
-                    }
-                    else
-                    {
-                        ui._text += "\nMP: " + effect.mpModify;
-                    }
-                }
+                ////////////if (effect.immune == true)
+                ////////////{
+                ////////////    ui._text += "\nImmune to damage";
+                ////////////}
+                ////////////if (effect.heavyState == true)
+                ////////////{
+                ////////////    ui._text += "\nHeavy state";
+                ////////////}
+                ////////if (effect.damageModifyPlus != 0)
+                ////////{
+                ////////    if (effect.damageModifyPlus > 0)
+                ////////    {
+                ////////        ui._text += "\nDamage: +" + effect.damageModifyPlus;
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nDamage: " + effect.damageModifyPlus;
+                ////////    }
+                ////////}
+                ////////if (effect.damageModifyPercent != 0)
+                ////////{
+                ////////    if (effect.damageModifyPercent > 0)
+                ////////    {
+                ////////        ui._text += "\nDamage: +" + effect.damageModifyPercent * 100 + "%";
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nDamage: " + effect.damageModifyPercent * 100 + "%";
+                ////////    }
+                ////////}
+                ////////if (effect.armorModifyPlus != 0)
+                ////////{
+                ////////    if (effect.armorModifyPlus > 0)
+                ////////    {
+                ////////        ui._text += "\nArmor: +" + effect.armorModifyPlus;
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nArmor: " + effect.armorModifyPlus;
+                ////////    }
+                ////////}
+                ////////if (effect.armorModifyPercent != 0)
+                ////////{
+                ////////    if (effect.armorModifyPercent > 0)
+                ////////    {
+                ////////        ui._text += "\nArmor: +" + effect.armorModifyPercent * 100 + "%";
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nArmor: " + effect.armorModifyPercent * 100 + "%";
+                ////////    }
+                ////////}
+                ////////if (effect.healModify != 0)
+                ////////{
+                ////////    if (effect.healModify > 0)
+                ////////    {
+                ////////        ui._text += "\nHeal modifier: +" + effect.healModify * 100 + "%";
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nHeal modifier: " + effect.healModify * 100 + "%";
+                ////////    }
+                ////////}
+                ////////if (effect.apModify != 0)
+                ////////{
+                ////////    if (effect.apModify > 0)
+                ////////    {
+                ////////        ui._text += "\nAP: +" + effect.apModify;
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nAP: " + effect.apModify;
+                ////////    }
+                ////////}
+                ////////if (effect.mpModify != 0)
+                ////////{
+                ////////    if (effect.mpModify > 0)
+                ////////    {
+                ////////        ui._text += "\nMP: +" + effect.mpModify;
+                ////////    }
+                ////////    else
+                ////////    {
+                ////////        ui._text += "\nMP: " + effect.mpModify;
+                ////////    }
+                ////////}
 
 
 

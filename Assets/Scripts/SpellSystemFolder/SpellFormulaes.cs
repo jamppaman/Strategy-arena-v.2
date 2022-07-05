@@ -18,14 +18,16 @@ namespace SpellSystem
         //references
         GridController gridController;
         MouseController mouseController;
+        SpellCalculators spellCalculators;
+        EffectMotor effectMotor;
 
         void Start()
         {
             mouseController = GameObject.FindGameObjectWithTag("MouseManager").GetComponent<MouseController>();
             gridController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GridController>();
+            spellCalculators = GameObject.FindGameObjectWithTag("PlayerController").GetComponent<SpellCalculators>();
+            effectMotor = GameObject.FindGameObjectWithTag("PlayerController").GetComponent<EffectMotor>();
 
-            if (!mouseController)
-                Debug.LogWarning("Mousecontroller is null!");
         }
 
         // V V V switches places with target
@@ -35,17 +37,14 @@ namespace SpellSystem
             PlayerMovement targetMovement = null;
             if (caster.CharCurrentlyOnTile)
             {
-                Debug.Log("casteri löydetty");
                 playerMovement = caster.CharCurrentlyOnTile.gameObject.GetComponent<PlayerMovement>();
             }
             if (target.CharCurrentlyOnTile)
             {
-                Debug.Log("maali löydetty");
                 targetMovement = target.CharCurrentlyOnTile.gameObject.GetComponent<PlayerMovement>();
             }
             if (playerMovement && targetMovement)
             {
-                Debug.Log("tehdään siirto");
                 playerMovement.MoveToTile(target, PlayerMovement.MovementMethod.Teleport);
                 targetMovement.MoveToTile(caster, PlayerMovement.MovementMethod.Teleport);
             }
@@ -54,21 +53,13 @@ namespace SpellSystem
         // V V V Teleports caster to target
         public void CasterTeleport(Tile caster, Tile target)
         {
-            if (caster != null)
-                Debug.Log("casteri löydetty");
-            if(target != null)
-                Debug.Log("casteri löydetty");
             PlayerMovement playerTeleport = null;
             playerTeleport = caster.CharCurrentlyOnTile.gameObject.GetComponent<PlayerMovement>();
-            if (playerTeleport != null)
-                Debug.Log("movement löydetty");
             if (playerTeleport && target.CharCurrentlyOnTile == false)
             {
-                    Debug.Log("käydään tele");
                 playerTeleport.MoveToTile(target, PlayerMovement.MovementMethod.Teleport);
             }
         }
-
 
 
         // V V V Handles Pull/ Push iniatilation
@@ -119,8 +110,6 @@ namespace SpellSystem
         {
             // korjaus on temp tile
             Tile korjaus = start;
-            //korjaus.locX = start.locX;
-            //korjaus.locZ = start.locZ;
 
             // tempdir ja helpdir ovat tilapäisiä suuntia joilla ohjataan tarkistuksia
             GridController.Directions tempDir = GridController.Directions.none;
@@ -179,7 +168,10 @@ namespace SpellSystem
                         }
                         else
                         {
-                            Debug.Log("wall hit");
+                            if (attribute.wallSplatDmg > 0)
+                            {
+                                spellCalculators.GetHit(start.CharCurrentlyOnTile.thisCharacter, attribute.wallSplatDmg);
+                            }
                             break;
                         }
                     }
@@ -204,6 +196,7 @@ namespace SpellSystem
                         }
                         else
                         {
+                            spellCalculators.GetHit(start.CharCurrentlyOnTile.thisCharacter, attribute.wallSplatDmg);
                             break;
                         }
                     }
@@ -266,7 +259,7 @@ namespace SpellSystem
                     return Side.down;
                 }
             }
-            Debug.Log("shit, side error");
+            Debug.Log("finding a side error");
             return Side.sideError;
         }
 
@@ -322,11 +315,26 @@ namespace SpellSystem
                 }
                 else
                 {
-                    Debug.Log("wall hit");
                     break;
                 }
             }
 
         }
+
+        public void Silencing(Tile target, SpellCreator.SpellAttribute attribute)
+        {
+            CharacterValues character = target.CharCurrentlyOnTile.thisCharacter;
+            foreach (var temp in effectMotor.effectList)
+            {
+                if (character == temp.owner)
+                {
+                    temp.remainingTurns =- attribute.silenceAmount;
+                    effectMotor.CheckEffects(temp, character);
+                }
+
+            }
+
+        }
+
     }
 }
